@@ -1,0 +1,19 @@
+{
+  "name": "p1_chat",
+  "version": "1.0.0",
+  "description": "Realtime Chat with video and GIF",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ae-cordova/practice.git"
+  },
+  "author": "Angel Cordova",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ae-cordova/practice/issues"
+  },
+  "homepage": "https://github.com/ae-cordova/practice#readme"
+}
