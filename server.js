@@ -17,12 +17,12 @@ server.listen(port);//empezamos a excuchar por el pueto definido
 
 
 function onRequest (req, res){
-	let fileName = path.join(__dirname,'public','index.html');
-	let file = fs.readFile(fileName, function(err,file){
-		if(err){
-			return res.end(err.message);
-		}
-		res.end(file);
+	let index = path.join(__dirname,'public','index.html');
+	let rs = fs.createReadStream(index);
+	
+	rs.setHeader('Content-Type', 'text/html');
+	rs.pipe(res);
+
 	});
 }
 
