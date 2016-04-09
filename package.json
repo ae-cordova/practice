@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ae-cordova/practice/issues"
   },
-  "homepage": "https://github.com/ae-cordova/practice#readme"
+  "homepage": "https://github.com/ae-cordova/practice#readme",
+  "dependencies": {
+    "st": "^1.1.0"
+  }
 }
